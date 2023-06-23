@@ -66,17 +66,11 @@ img
 {
         color:var(--color4);
 }
-.li-contactss
-{
-        margin-right: 0px;
-        padding-top: 24px;
-        padding-bottom: 24px;
-}
+
 .li-contacts
 {
         margin-right: 40px;
-        padding-top: 24px;
-        padding-bottom: 24px;
+        padding: 24px 0;
 }
 .link-spc
 {
