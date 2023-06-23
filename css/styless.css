@@ -74,7 +74,10 @@ img
 
 }
 
-
+.li-contacts
+{
+        padding: 24px 0 24px;
+}
 .link-spc:hover,
 .link-spc:focus
 {
@@ -88,6 +91,8 @@ img
         line-height: 1.5;
         letter-spacing: 0.02em;
         color:var(--color1);
+        
+
         
 }
 
@@ -129,6 +134,7 @@ img
         align-items: center;
         margin-right: 40px;
         padding: 24px 0;
+        gap: 40px;
 }
 .header-nav
 {
