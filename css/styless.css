@@ -37,13 +37,16 @@ ol
  margin: 0;
  padding: 0;
 }
+img
+{
+        display: block;
+}
 .container
 {
         width: 1158px;
         margin-left: auto;
         margin-right: auto;
-        padding-left: 15px;
-        padding-right: 15px;
+        padding: 0 15px ;
 
 }
 
@@ -135,10 +138,7 @@ ol
         justify-content: space-between;
 
 }
-.header
-{
-  border-bottom: 1px solid #e7e9fc;
-}
+
 .li-studio:hover,
 .li-studio:focus
 {
@@ -181,6 +181,9 @@ ol
 .address
 {
         font-style: normal;
+}
+.header {
+        border-bottom: 1px solid #e7e9fc;
 }
 
 /*===================================header*/
@@ -348,14 +351,14 @@ Hero styless
         letter-spacing: 0.02em;
         text-transform: capitalize;
         color:var(--color1);
+        
         margin-bottom: 72px;
 
 }
 .section-three
 {
         background-color: #F4F4FD;
-        padding-top: 120px;
-        padding-bottom: 120px;
+        padding: 120px 0;
 }
 .fotopeople
 {
