@@ -96,12 +96,13 @@ img
 .studio-wight
 {
         color: var(--color5);
-        padding: 24px 0 24px;
+        
 }
 .studio-dark
 {
         
         color:var(--color1);
+        padding: 24px 0 24px;
 }
 
 .logo:hover,
