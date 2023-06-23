@@ -87,6 +87,7 @@ img
         line-height: 1.5;
         letter-spacing: 0.02em;
         color:var(--color1);
+        
 }
 
 .studio-wight
@@ -451,19 +452,16 @@ Hero styless
         color: var(--color3);
         background-color: var(--color5);
  }
- .ul-li-button
- {
-      padding: 12px 24px;
-      border: 1px solid #e7e9fc;
 
-
- }
  .button-ul
  {
         display: flex;
         justify-content: center;
         gap: 24px;
-        margin-bottom: 72px
+        margin-bottom: 72px;
+
+        padding: 12px 24px;
+        border: 1px solid #e7e9fc;
  }
 
  .main-section
