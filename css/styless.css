@@ -63,9 +63,6 @@ img
         padding: 0 15px ;
 
 }
-
-
-
 .body
 {
         font-family: Roboto , sans-serif ;
@@ -99,6 +96,7 @@ img
 .studio-wight
 {
         color: var(--color5);
+        padding: 24px 0 24px;
 }
 .studio-dark
 {
