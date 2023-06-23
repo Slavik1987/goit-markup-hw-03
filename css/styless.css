@@ -42,7 +42,8 @@ ol
         width: 1158px;
         margin-left: auto;
         margin-right: auto;
-
+        padding-left: 15px;
+        padding-right: 15px;
 
 }
 
@@ -62,7 +63,18 @@ ol
 {
         color:var(--color4);
 }
-
+.li-contactss
+{
+        margin-right: 0px;
+        padding-top: 24px;
+        padding-bottom: 24px;
+}
+.li-contacts
+{
+        margin-right: 40px;
+        padding-top: 24px;
+        padding-bottom: 24px;
+}
 .link-spc
 {
         font-weight: 500;
@@ -70,11 +82,6 @@ ol
         line-height: 1.5;
         letter-spacing: 0.02em;
         color:var(--color1);
-        
-        
-        
-
-
 }
 
 .studio-wight
@@ -102,6 +109,7 @@ ol
         letter-spacing: 0.03em;
         text-transform: uppercase;
         color:var(--color3);
+        margin-right: 76px;
 }
 .link-list
 {
@@ -123,6 +131,13 @@ ol
 .header-container
 {
         display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+}
+.header
+{
+  border-bottom: 1px solid #e7e9fc;
 }
 .li-studio:hover,
 .li-studio:focus
@@ -152,7 +167,16 @@ ol
         line-height: 1.5;
         letter-spacing: 0.02em;
         color:#434455;
+        
        
+}
+.list-tell
+{
+ margin-right: 0px;
+}
+.list-mailo
+{
+ margin-right: 40px;
 }
 .address
 {
@@ -164,6 +188,7 @@ ol
 .button-order
 {
         color:#ffffff;
+        
 }
 .button:hover 
 {
@@ -184,6 +209,12 @@ ol
         cursor: pointer;
         color:#ffffff;
         background-color: #4D5AE5;
+
+        display: block;
+        min-width: 169px;
+        height: 56px;
+        border: none;
+        border-radius: 4px;
 }
 .solutions 
 {
@@ -192,22 +223,45 @@ ol
         text-align: center;
         letter-spacing: 0.02em;
         color:#ffffff;
+        max-width: 496px;
 }
-.section-hero
+.hero-section
 {
         background-color:#2e2f42 ;
+        padding-top: 188px;
+        padding-bottom: 188px;
 }
 /*
 ==================
 Hero styless
 ==================
 */
+.li-strategy
+{
+        width: calc((100% - 72px) / 4);
+}
+.list-strategy
+{
+        display: flex;
+        gap: 24px;
+
+}
+.section-one
+{
+        padding-top: 120px;
+        padding-bottom: 120px;
+
+}
 .message
 {
         font-size: 16px;
         line-height: 1.5;
         letter-spacing: 0.02em;
         color: #434455;
+}
+.overview
+{
+        margin-bottom: 8px;
 }
 .overview,
 .name
@@ -228,11 +282,32 @@ Hero styless
         line-height: 1.5;
         letter-spacing: 0.02em;
         color:var(--color2);
+        text-align: center;
+
+}
+.name
+{
+        text-align: center;
+        margin-bottom: 8px
+}
+.div-name
+{
+        padding: 32px 16px;
+
 }
 .name:hover,
 .name:focus
 {
         color:var(--color4);
+}
+.li-ul
+{
+        width: calc((100% - 48px) / 3);
+}
+.ul-what-are-we
+{
+        display: flex;
+        gap: 24px;
 }
 .what-are-we
 {
@@ -242,16 +317,28 @@ Hero styless
         letter-spacing: 0.02em;
         text-transform: capitalize;
         color:var(--color1);
+        margin-bottom: 72px;
 }
 .section-two 
 {
         background-color: #FFFFFF;
+        padding-bottom: 120px;
 }
 .footer-incris
 {
         line-height: 1.5;
         letter-spacing: 0.02em;
         color: #F4F4FD;;
+}
+.li-fotopeople
+{
+        width: calc((100% - 72px) / 4);
+        border-radius: 0px 0px 4px 4px;
+}
+.ul-fotopeople
+{
+        display: flex;
+        gap: 24px;
 }
 .team
 {
@@ -261,10 +348,14 @@ Hero styless
         letter-spacing: 0.02em;
         text-transform: capitalize;
         color:var(--color1);
+        margin-bottom: 72px;
+
 }
 .section-three
 {
         background-color: #F4F4FD;
+        padding-top: 120px;
+        padding-bottom: 120px;
 }
 .fotopeople
 {
@@ -274,9 +365,16 @@ Hero styless
 {
         background-color: #FFFFFF;
 }
+.logo-con
+{
+        display: inline-block;
+        margin-bottom: 16px;
+}
 .footer
 {
         background-color:#2e2f42;
+        padding-top: 100px;
+        padding-bottom: 100px;
 }
 /*=====portfolio=====*/
 .discraibe
