@@ -41,6 +41,10 @@ img
 {
         display: block;
 }
+ visually-hidden 
+ {
+         visibility: hidden;
+ }
 .container
 {
         width: 1158px;
@@ -452,10 +456,7 @@ Hero styless
         gap: 24px;
         margin-bottom: 72px
  }
- .visually-hidden
- {
-       visibility: hidden;
- }
+
  .main-section
  {
         padding-top: 96px;
