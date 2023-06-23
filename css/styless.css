@@ -53,6 +53,7 @@ img
         clip-path: inset(100%);
         clip: rect(0 0 0 0);
         overflow: hidden;
+        margin-bottom: 8px;
  }
 .container
 {
@@ -451,6 +452,9 @@ Hero styless
 
         color: var(--color3);
         background-color: var(--color5);
+
+        padding: 12px 24px;
+        border: 1px solid #e7e9fc;
  }
 
  .button-ul
