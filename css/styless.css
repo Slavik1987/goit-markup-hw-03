@@ -67,11 +67,6 @@ img
         color:var(--color4);
 }
 
-.li-contacts
-{
-        margin-right: 40px;
-        padding: 24px 0;
-}
 .link-spc
 {
         font-weight: 500;
@@ -117,6 +112,8 @@ img
 {
         display: flex;
         align-items: center;
+        margin-right: 40px;
+        padding: 24px 0;
 }
 .header-nav
 {
@@ -406,7 +403,7 @@ Hero styless
         border: 1px solid #e7e9fc;
         border-top: none;
         margin-bottom: 8px;
-        
+
 }
 .ul-img-li
 {
@@ -454,7 +451,10 @@ Hero styless
         justify-content: center;
         gap: 24px;
         margin-bottom: 72px
-        
+ }
+ .visually-hidden
+ {
+       visibility: hidden;
  }
  .main-section
  {
