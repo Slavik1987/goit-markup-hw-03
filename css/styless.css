@@ -222,6 +222,7 @@ img
         cursor: pointer;
         color:#ffffff;
         background-color: #4D5AE5;
+        margin: 0 auto;
 
         display: block;
         min-width: 169px;
@@ -237,6 +238,7 @@ img
         letter-spacing: 0.02em;
         color:#ffffff;
         max-width: 496px;
+        margin: 0 auto;
 }
 .hero-section
 {
