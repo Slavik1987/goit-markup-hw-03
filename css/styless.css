@@ -9,6 +9,7 @@ Common styless
         --color3: #4d5ae5;
         --color4: #404bbf;
         --color5: #F4F4FD;
+        --color6:#e7e9fc;
 }
 
 
@@ -222,7 +223,8 @@ img
         cursor: pointer;
         color:#ffffff;
         background-color: #4D5AE5;
-        margin: 0 auto;
+        margin-left: auto;
+        margin-right: auto;
 
         display: block;
         min-width: 169px;
@@ -238,7 +240,9 @@ img
         letter-spacing: 0.02em;
         color:#ffffff;
         max-width: 496px;
-        margin: 0 auto;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 48px;
 }
 .hero-section
 {
@@ -343,7 +347,8 @@ Hero styless
 {
         line-height: 1.5;
         letter-spacing: 0.02em;
-        color: #F4F4FD;;
+        color: #F4F4FD;
+        max-width: 264px;
 }
 .li-fotopeople
 {
@@ -424,7 +429,6 @@ Hero styless
         padding: 32px 16px;
         border: 1px solid #e7e9fc;
         border-top: none;
-        margin-bottom: 8px;
 
 }
 .ul-img-li
@@ -438,16 +442,13 @@ Hero styless
         column-gap: 24px;
         row-gap: 48px;
 }
-.button-zero:hover
+.button-zero:hover,
+.button-zero:focus
 {
         color: #FFFFFF;
         border: 1px solid transparent;
 }
-.button-zero:focus
-{
-        color:#FFFFFF;
-        border: 1px solid transparent;
-}
+
 .button-zero
 {
         font-family: Roboto, sans-serif;
@@ -461,7 +462,7 @@ Hero styless
         background-color: var(--color5);
 
         padding: 12px 24px;
-        border: 1px solid #e7e9fc;
+        border: 1px solid var(--color6);
  }
 
  .button-ul
@@ -471,8 +472,6 @@ Hero styless
         gap: 24px;
         margin-bottom: 72px;
 
-        padding: 12px 24px;
-        border: 1px solid #e7e9fc;
  }
 
  .main-section
